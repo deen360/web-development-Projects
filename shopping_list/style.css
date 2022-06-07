@@ -1,0 +1,104 @@
+html{
+  font-size: 16px;
+  height: 100vh;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+  height: 100%;
+  background-image: url(./image/shopping.jpg);
+  background-size:cover;
+  font-family: 'Shadows Into Light', cursive;
+  font-weight: bolder;
+
+  
+
+}
+
+.box {
+  display: flex;
+  flex-direction:column;
+  width: 400px;
+  background: rgb(34,193,195);
+  background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%); 
+  align-self: center;
+  justify-items: center;
+  height: fit-content;
+  border: solid 2px;
+  border-radius: 5px;
+}
+
+.heading {
+  display: flex;
+  align-self: center;
+  justify-content: space-around;
+  color: black;
+  font-weight: bold;
+  font-size: 20px
+  
+}
+
+.button{
+  display: ;
+  width: 250px;
+  height: 25px;
+  background: rgb(172,172,172);
+  background: linear-gradient(90deg, rgba(172,172,172,1) 0%, rgba(226,80,34,1) 4%, rgba(193,174,18,1) 6%, rgba(221,203,215,1) 26%, rgba(217,165,208,1) 100%); 
+  border: solid black;
+  border-radius: 3px;
+  font-family: inherit;
+  padding: 0px 0px 3px;
+ 
+}
+
+p{
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  
+}
+
+.list{
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  background: rgb(34,193,195);
+  background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%); 
+  margin-top: 50px;
+  height: fit-content;
+  font-size: 20px;
+  color: black;
+  justify-content: space-between;
+  border: solid black;
+  border-radius: 5px;
+}
+
+
+.items {
+  display: flex;
+  color: brown;
+  justify-content: space-between;
+  padding: 5px 20px 5px 5px;
+
+}
+
+
+.items_button, #item {
+  font-family: inherit;
+  color: black;
+
+}
+
+
+@media screen and (max-width: 480px) {
+  .box,.list{
+    width: 65%;
+  }
+
+ .button{
+    width: 100px;
+  }
+}
