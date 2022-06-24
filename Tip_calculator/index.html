@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet"> 
+    <script src="scripts.js" defer></script>
+    
+    <title>Tip Calculator</title>
+</head>
+<body>
+
+    <p>
+       <h1>Tip Calculator</h1> 
+    </p>    
+    <div class="box">
+
+
+            <p>
+                <label for="Bill">Bill Amount ($):</label>
+                <input type="number" name="Bill" placeholder="e.g 20" required  min="0" class="bill" id="bill" autofocus>
+    
+            </p>
+
+            <p>
+                <label for="tip">Tip (%):</label>
+                <input type="number"  name="tip" required placeholder="e.g 20" min="0" max="100" step="5" class="tip" id="tip">
+            </p>
+
+            <p>
+                <label for="Amount">Tip Amount ($):</label>
+                <input type="text" name="Amount" class="amount" id="amount" disabled>
+            </p>
+
+            <p>
+                <label for="total">Total Bill ($):</label>
+                <input type="text" name="total" class="total" id="total" disabled>
+            </p>
+
+            <p>
+                <button  type="button" value="Calculate" class="button"> Calculate   </button>
+                
+            </p>
+
+        </div>
+
+</body>
+</html>
