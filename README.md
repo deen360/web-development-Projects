@@ -7,3 +7,5 @@ the user had to input the cost of the meal and the percentage tip they wish to a
 
 Shopping list --> the shopping list helps users to keep track of items they plan to buy,or can also be used to as a todo list
 to keep track of activities, the user can add and remove any item on the list 
+
+Rock paper scissors game--> a rock paper scissors game between computer and a human player 
