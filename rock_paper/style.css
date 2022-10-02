@@ -1,0 +1,182 @@
+html{
+  font-size: 10px;
+  height: 100vh;
+}
+
+
+body {
+  display: flex; 
+  flex-direction: column;
+  margin: 0px;
+  height: 100%;
+  font-family: 'Shadows Into Light', cursive;
+  font-weight: bolder;
+  padding: 0px 30px 30px 30px;
+  background-image: url(./image/lgbtq.jpg);
+  background-size: contain;
+
+
+
+}
+
+
+.left, .right{
+  box-sizing: border-box;
+  height: 40rem;
+  width: 38rem;
+  border: solid 3px black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 20rem;
+  padding-top: 20px;
+  background-color: aliceblue;
+
+}
+
+.main{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+}
+
+
+
+.header {
+  display: flex;
+  justify-content: space-around;
+
+
+
+}
+
+.header > h1 {
+  background-color: aliceblue;
+  height:6rem ;
+  padding: 0 40px 0 40px;
+}
+
+
+h1 {
+  align-self: center;
+  font-size: 4rem;
+}
+
+.box{
+  box-sizing: content-box;
+}
+
+
+
+.name {
+  box-sizing: 10rem;
+  background-color: whitesmoke;
+}
+
+footer {
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+  background-size: contain;
+
+
+}
+
+.button{
+
+  height: 10rem;
+  width: 10rem;
+
+  border: solid black 0.5rem;
+  border-radius: 55px;
+
+
+}
+
+img{
+  height:230px;
+}
+
+h2{
+  font-size: 20px;
+
+}
+
+
+span{
+  font-size: 40px;
+}
+
+.sciss, .rock, .paper{
+  height: 120px;
+  width: 120px;
+  background-image: url("./image/sciss.png" );
+  background-size: contain;
+  border-radius: 55px;
+  margin: 10px 30px 10px 30px ;
+}
+
+.paper{
+  background-image: url("./image/paper.png" );
+}
+
+.sciss {
+  background-image: url("./image/sciss.png" );
+}
+
+
+
+.rock {
+  background-image: url("./image/rock.png" );
+}
+
+input {
+  height: 25px;
+  width: 90px;
+  border: 3px solid black;
+  border-radius: 2px;
+  text-align: center;
+
+ 
+}
+
+label {
+  font-size: 18px;
+}
+
+.begin {
+  display: flex;
+  flex-direction: column;
+  font-size: 30px;
+  background-color: aliceblue;
+  height: fit-content;
+  width: fit-content;
+  padding: 20px 20px 20px 20px;
+  border: 3px solid  black;
+  justify-items: space-around;
+  align-items: center;
+  margin-top: 20px;
+
+}
+
+.start {
+  margin-top: 20px;
+}
+
+footer > p{
+  background-color: aliceblue;
+  margin-top: -30px;
+} 
+
+@media screen and (max-width: 450px) {
+  body{
+    width: 50%;
+  }
+
+ .button{
+    width: 100px;
+  }
+}
